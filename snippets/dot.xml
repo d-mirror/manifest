@@ -26,10 +26,6 @@
           fetch="https://gitlab.com/dotosofficial"
           revision="refs/heads/dot11" />
 
-  <remote name="r-os"
-          fetch="ssh://git@github.com/r-mirror/"
-          revision="r11.0" />
-
   <project path="art" name="android_art" remote="dot" />
   <project path="manifest" name="manifest" remote="dot" />
   <project path="bionic" name="android_bionic" remote="dot" />
@@ -69,13 +65,13 @@
   <project path="prebuilts/sdk" name="android_prebuilts_sdk" remote="dot-gitlab" />
 
   <!-- External Repos -->
+  <project path="external/arm-optimized-routines" name="android_external_arm-optimized-routines" remote="dot" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="dot" />
   <project path="external/selinux" name="android_external_selinux" remote="dot" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="dotos-gitlab" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="dotos-gitlab" />
   <project path="external/faceunlock" name="external_faceunlock" remote="dotos-gitlab" />
-  <project path="external/noto-fonts" name="android_external_noto-fonts" remote="r-os" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
@@ -188,7 +184,6 @@
   <project path="system/core" name="android_system_core" remote="dot" />
   <project path="system/netd" name="android_system_netd" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
-  <project path="system/security" name="android_system_security" remote="dot" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="dot" />
   <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="dot" />
   <project path="system/update_engine" name="android_system_update_engine" remote="dot" />

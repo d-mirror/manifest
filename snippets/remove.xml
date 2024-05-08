@@ -63,6 +63,7 @@
   <remove-project name="device/ti/beagle-x15-kernel" />
 
   <!-- external repos -->
+  <remove-project name="platform/external/arm-optimized-routines" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/libcxx" />
@@ -70,6 +71,14 @@
   <remove-project name="platform/external/robolectric-shadows" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/external/selinux" />
+  <remove-project name="platform/external/honggfuzz" />
+  <remove-project name="platform/external/libunwind" />
+  <remove-project name="platform/external/openssh" />
+  <remove-project name="platform/external/python/cpython2" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/external/zlib" />
+  <remove-project name="platform/external/compiler-rt" />
+  <remove-project name="platform/external/jemalloc_new" />
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
@@ -135,6 +144,7 @@
   <remove-project name="platform/packages/providers/MediaProvider" />
 
   <!-- Prebuilts -->
+  <remove-project name="platform/prebuilts/clang/host/linux-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" />
@@ -145,6 +155,7 @@
   <remove-project name="platform/system/core" />
   <remove-project name="platform/system/netd" />
   <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/linkerconfig" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/security" />
   <remove-project name="platform/system/tools/mkbootimg" />

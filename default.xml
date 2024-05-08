@@ -846,4 +846,7 @@
     <!-- dot OS repos -->
     <include name="snippets/dot.xml" />
 
+    <!-- fork repos -->
+    <include name="snippets/r-os.xml" />
+
 </manifest>

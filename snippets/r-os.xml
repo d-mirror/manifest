@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="r-os"
+          fetch="git@github.com:r-mirror"
+          revision="r11.0" />
+          
+  <project path="external/noto-fonts" name="android_external_noto-fonts" remote="r-os" />
+  <project path="external/compiler-rt" name="android_external_compiler-rt" remote="r-os" />
+  <project path="external/honggfuzz" name="android_external_honggfuzz" remote="r-os" />
+  <project path="external/openssh" name="android_external_openssh" remote="r-os" />
+  <project path="external/python/cpython2" name="android_external_python_cpython2" remote="r-os" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="r-os" />  
+  <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="r-os" />
+
+  <project path="hardware/ril" name="android_hardware_ril" remote="r-os" />
+  
+  <project path="prebuilts/clang/host/linux-x86" name="android_prebuilts_clang_host_linux-x86" remote="r-os" clone-depth="1"/>
+
+  <project path="system/linkerconfig" name="android_system_linkerconfig" remote="r-os" />
+  <project path="system/security" name="android_system_security" remote="r-os" />
+
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt-commonsys" remote="r-os" />
+  
+</manifest>
