@@ -12,6 +12,7 @@
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="r-os" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="r-os" />  
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="r-os" />
+  <project path="external/zlib-ng" name="android_external_zlib-ng" remote="r-os" />  
 
   <project path="hardware/ril" name="android_hardware_ril" remote="r-os" />
   
