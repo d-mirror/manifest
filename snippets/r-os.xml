@@ -8,7 +8,7 @@
   <project path="external/noto-fonts" name="android_external_noto-fonts" remote="r-os" />
   <project path="external/compiler-rt" name="android_external_compiler-rt" remote="r-os" />
   <project path="external/honggfuzz" name="android_external_honggfuzz" remote="r-os" />
-  <project path="external/openssh" name="android_external_openssh" remote="r-os" />
+  <project path="external/openssh" name="android_external_openssh" remote="r-os" revision="d823980a18dd57b754ab8c93d9d74aae2b9794af" />
   <project path="external/python/cpython2" name="android_external_python_cpython2" remote="r-os" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="r-os" />  
   <project path="external/jemalloc_new" name="android_external_jemalloc_new" remote="r-os" />
