@@ -183,6 +183,7 @@
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
   <project path="system/core" name="android_system_core" remote="dot" />
+  <project name="android_system_hardware_interfaces" path="system/hardware/interfaces" remote="dot" />
   <project path="system/netd" name="android_system_netd" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" groups="pdk" remote="dot" />
