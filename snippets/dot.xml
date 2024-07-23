@@ -120,6 +120,8 @@
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996-los/Android.mk" />
     <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8998/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8998/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/sdm660/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm660/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sdm845/Android.bp" />
     <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sdm845/Android.mk" />
     <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
@@ -133,7 +135,9 @@
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
   </project>
-
+  <project path="hardware/qcom-caf/sdm660/audio" name="android_hardware_qcom_audio" revision="dot11-caf-sdm660" remote="dot" />
+  <project path="hardware/qcom-caf/sdm660/display" name="android_hardware_qcom_display" revision="dot11-caf-sdm660" remote="dot" />
+  <project path="hardware/qcom-caf/sdm660/media" name="android_hardware_qcom_media" revision="dot11-caf-sdm660" remote="dot" />
 
   <!-- Packages -->
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-fs" remote="dot" />
